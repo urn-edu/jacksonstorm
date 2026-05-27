@@ -1,6 +1,53 @@
+:root{
+    --color-primary: rgb(199, 199, 219);
+    --text-color2: rgb(27, 173, 161);
+    --bg-color: rgb(30, 19, 134);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: rgb(50, 52, 53);
 }
+
 header{
-    background-color: rgb(0, 0, 148);
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    color: var(--color-primary);
+}
+
+nav ul li{
+    font-size: 1.48rem;
+    padding: 0 20px;
+    color: var(--color-primary);
+}
+
+.logo{
+    font-size: 2.99rem;
+    color:rgb(255, 255, 255);
+    padding-right: 20px;
+}
+
+.imagem{
+    scale: 1;
+    width: 20%;
+}
+
+.texto{
+    color: var(--color-primary);
+    padding: 40px 5%;
+    padding-right: 55%;
+    font-size: 1.21rem;
+    font-style: oblique;
 }
